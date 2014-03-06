@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	position: inherit;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	margin-left: inherit;
+	list-style-type: none;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+	text-align: center;
+}
+a:link {
+	font: 14px Century Gothic;
+	color: blue;
+	text-decoration: none;
+}
+
+a:visited{
+	font: 14px Century Gothic;
+	color:blue;
+	text-decoration:none;	
+}
+
+a:hover{
+	font: 14px Century Gothic;
+	background-color:blue;
+	color:white;
+	text-decoration:underline;
+}
+
+a:active{
+	font: 14px Century Gothic;
+	background-color: orange;
+	text-decoration:blink;
+}
+th, td{
+	margin: 5px;
+	padding: 3px;
+}
+
+#wrapper {
+	margin: 0px auto;
+	width: 1000px;
+	padding-bottom: 0px;
+	text-align: left;
+	background-image:url(../files/stethoscope1.jpg);
+	
+}
+#indexlogin {
+	text-align: center;
+	width: 160px;
+	padding: 5px;
+	margin-top: 30px;
+	margin-right: 10px;
+	float: right;
+	border: solid 1px blue;
+}
+
+#logo {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+img {
+	border: none;
+}
+#indexheader{
+	text-align: left;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	height: 200px;
+	margin-bottom: 0px;
+}
+#title {
+	font-family:"Courier New", Courier, monospace;
+	text-align: center;
+}
+#content{
+	position: relative;
+	margin-top: 10px;
+	margin-left: 240px;
+	margin-right: 10px;
+	margin-bottom: 	10px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	width: 710px;
+	overflow-x: auto;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(234, 234, 234) transparent;
+	/* RGBa with 0.6 opacity */
+	background: rgba(234, 234, 234, 0.6);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99999999, endColorstr=#99999999);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99999999, endColorstr=#99999999)";
+	
+}
+
+#sidenav {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 0px;
+	text-align: left;
+	float: left;
+	position: relative;
+	background-color:#6CF ;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 200px;
+	display: block;
+}
+#footer {
+	position: relative;
+	margin: 0px;
+	text-align: center;
+	background-color:#999999;
+}
+#footer>ul li {
+	position: static;
+	padding: 10px 0px 10px 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	display: inline;
+	list-style-type: none;
+
+}
+#footer>ul{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+#content>form {
+	text-align: left;
+}
+
+/*registeremployee*/
+#employeejobdisplay {
+	border: 1px solid blue;
+}
+#employeeprofessiondisplay {
+	border: 1px solid blue;
+}
+/*registerpatient*/
+#patientinsurancedisplay {
+	border: 1px solid blue;
+}
