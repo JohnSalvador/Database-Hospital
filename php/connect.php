@@ -1,5 +1,6 @@
 <?php
 include_once 'core.php';
+require_once 'config.php';
 
 $http_client_ip;
 $http_x_forwarded_for;
