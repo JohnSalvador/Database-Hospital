@@ -19,14 +19,11 @@ if(!empty($http_client_ip)){
 	$ip_address = $remote_addr;
 }
 
-if($ip_address=='::1'){
-	$dbServer = "localhost";
-}else{
-	$dbServer = "sql2.njit.edu";
-}
-$dbuserName = "jbs44";
-$dbpassword = "6kVBymUH";
-$dbName = "jbs44";
+
+$dbServer = DB_HOST;
+$dbuserName = DB_USER;
+$dbpassword = DB_PASSWORD;
+$dbName = DB_NAME;
 
 // ********** Connect. Change fields above.
 // ********** Do not edit below
