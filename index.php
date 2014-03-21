@@ -29,7 +29,10 @@ require_once 'php/core.php';
     	<h2>Bringing the Best Healthcare Everywhere</h2>
     	<p>This is the online database resource for The Hospital. </p>
         <img src="files/arcm5.gif" />
-        <p></p>
+        <p>To peruse my sample database website the following logins may used:</p>
+        <p>user: nurse, pass: joy</p>
+        <p>user: doctor, pass: who</p>
+        <p>user: admin, pass: guy</p>
     </div>
     <?php include 'footer.php';?>
     
