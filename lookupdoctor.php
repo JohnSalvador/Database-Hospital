@@ -14,7 +14,8 @@ $fetchtable3 = 'Profession';
 
 //Creating Fetch Query
 $fields= '';
-$fieldarray = $_POST['Fields'];
+if(isset($_POST['Fields']))
+	$fieldarray = $_POST['Fields'];
 if(empty($fieldarray)) {
 	$fieldarray = array(0=>"FirstName AS 'First Name'", 1=>"LastName AS 'Last Name'", 2=>"Gender", 3=>"PhoneNumber AS 'Phone Number'", 4=>"Degree", 5=>"ProfessionTitle AS 'Profession Title'");
 }
@@ -80,9 +81,10 @@ try{
 $rowfield2 = $result2->fetch_assoc();
 
 $counter=0;
-foreach($rowfield2 as $key=>$value){
-	$fieldname2[$counter++] = $key;
-}
+if(isset($rowfield2)&&!empty($rowfield2))
+	foreach($rowfield2 as $key=>$value){
+		$fieldname2[$counter++] = $key;
+	}
 $n=$counter;
 
 ?>

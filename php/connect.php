@@ -1,6 +1,6 @@
 <?php
 include_once 'core.php';
-require_once 'config.php';
+require_once '../config.php';
 
 $http_client_ip;
 $http_x_forwarded_for;
@@ -24,7 +24,7 @@ if(!empty($http_client_ip)){
 $dbServer = DB_HOST;
 $dbuserName = DB_USER;
 $dbpassword = DB_PASSWORD;
-$dbName = DB_NAME;
+$dbName = DB_DATABASE;
 
 // ********** Connect. Change fields above.
 // ********** Do not edit below
